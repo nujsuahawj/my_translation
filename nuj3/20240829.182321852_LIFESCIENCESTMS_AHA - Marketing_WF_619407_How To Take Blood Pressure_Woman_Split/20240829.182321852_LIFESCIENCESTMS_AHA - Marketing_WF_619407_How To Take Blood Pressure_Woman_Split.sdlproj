@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a622458f-cc1c-4350-922e-c698d545f820" SettingsBundleGuid="af93ffcb-1c25-45b2-bb80-d0a7e25c0b22" Version="4.0.0.0" ProjectTemplateGuid="00000000-0000-0000-0000-000000000000" ReferenceProjectGuid="00000000-0000-0000-0000-000000000000">
+  <LanguageDirections>
+    <LanguageDirection Guid="a43ec133-d990-4da5-9619-23c4f8188dce" SettingsBundleGuid="4e8bdba7-8a28-426a-9fb5-74d46f389b7c" TargetLanguageCode="zh-x-hmn-SDL" SourceLanguageCode="en-US">
+      <AutoSuggestDictionaries />
+      <CascadeItem OverrideParent="true" StopSearchingWhenResultsFound="false">
+        <CascadeEntryItem PerformConcordanceSearch="true" Penalty="0" PerformUpdate="true" PerformNormalSearch="true">
+          <MainTranslationProviderItem Uri="sdltm.file:///Tm/zh-x-hmn-SDL/AHA_Master TM_Hmong.sdltm" Enabled="true" />
+        </CascadeEntryItem>
+      </CascadeItem>
+    </LanguageDirection>
+  </LanguageDirections>
+  <TermbaseConfiguration>
+    <LanguageIndexMappings>
+      <Language>en-US</Language>
+    </LanguageIndexMappings>
+    <LanguageIndexMappings>
+      <Language>zh-x-hmn-SDL</Language>
+    </LanguageIndexMappings>
+    <RecognitionOptions>
+      <ShowWithNoAvailableTranslation>false</ShowWithNoAvailableTranslation>
+      <MinimumMatchValue>70</MinimumMatchValue>
+      <SearchDepth>200</SearchDepth>
+      <SearchOrder>Parallel</SearchOrder>
+    </RecognitionOptions>
+  </TermbaseConfiguration>
+  <SettingsBundles>
+    <SettingsBundle Guid="af93ffcb-1c25-45b2-bb80-d0a7e25c0b22">
+      <SettingsBundle>
+        <SettingsGroup Id="FileTypeManagerConfigurationSettingsGroup">
+          <Setting Id="FileTypeManagerConfigurationSettings">
+            <FileTypeManagerConfigurationList xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sdl.com/projectapi">
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ITD v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Word 2000-2003 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Word 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WordprocessingML v. 2</FileTypeDefinitionId>
+                <Removed>false</Removed>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint XP-2003 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PowerPoint 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2007 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Excel 2003 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Bilingual Workbench 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>RTF v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XHTML 1.1 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>HTML v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 5 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Html 4 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>FrameMaker 8.0 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Inx 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>IDML v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>ICML Filter 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odt 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Odp 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Ods 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 1.1-1.2 v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>QuarkXPress v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WsXliff 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PDF v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>CSV v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Tab Delimited v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Java Resources v 2.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>XML: RESX v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>XML: DITA 1.2 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>DocBook 4.5 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>XML: ITS 1.0 v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <FileTypeDefinitionId>XML: Any v 1.2.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Plain Text v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>Tab Delimited v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>CSV v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 1.1-1.2 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>QuarkXPress v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: DITA 1.1 v 1.2.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>FrameMaker 8.0 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: Author-it 1.2 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>PO files v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SubRip v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XML: MadCap 1.2 v 1.0.0.0</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>WordprocessingML v. 1</FileTypeDefinitionId>
+                <Hidden>true</Hidden>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>XLIFF 2.0 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+              <FileTypeManagerConfigurationItem>
+                <Enabled>true</Enabled>
+                <FileTypeDefinitionId>SDL XLIFF 1.0 v 1.0.0.0</FileTypeDefinitionId>
+              </FileTypeManagerConfigurationItem>
+            </FileTypeManagerConfigurationList>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TmsSettings">
+          <Setting Id="TmsServer">https://lifesciences.sdlproducts.com</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TerminologyProviderSettings">
+          <Setting Id="Termbases">
+            <ArrayOfTermbase xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Sdl.ProjectApi.Implementation.Xml">
+            </ArrayOfTermbase>
+          </Setting>
+          <Setting Id="TermbasesOrder">
+            <ArrayOfstring xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+            </ArrayOfstring>
+          </Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="PackageLicenseInfo">
+          <Setting Id="Grant">AllowOpenStudioPackage</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="TranslationMemorySettings">
+          <Setting Id="TranslationMinimumMatchValue">75</Setting>
+          <Setting Id="TranslationFullSearch">True</Setting>
+          <Setting Id="TranslationSearchMainTranslationMemories">True</Setting>
+          <Setting Id="LookupMtEvenIfTmHasMatch">True</Setting>
+          <Setting Id="MultipleTranslationsPenalty">0</Setting>
+          <Setting Id="AlignmentPenalty">0</Setting>
+          <Setting Id="HardFilter" />
+        </SettingsGroup>
+        <SettingsGroup Id="AnalysisTaskSettings">
+          <Setting Id="ReportInternalFuzzyMatchLeverage">True</Setting>
+          <Setting Id="ReportLockedSegmentsSeparately">True</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="ProjectTranslationMemoryTaskSettings">
+          <Setting Id="ServerConnectionUri" />
+          <Setting Id="ParentResourceGroupPath" />
+          <Setting Id="TranslationMemoryContainerPath" />
+        </SettingsGroup>
+        <SettingsGroup Id="FileViewServiceSettings">
+          <Setting Id="SelectedTargetLanguageCode">zh-x-hmn-SDL</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="Plugin.AnyTM.SourceLanguages">
+          <Setting Id="HasMixedSourceLanguages">False</Setting>
+          <Setting Id="AutoDetectSourceLanguage">True</Setting>
+          <Setting Id="SourceLanguages">en-US</Setting>
+        </SettingsGroup>
+        <SettingsGroup Id="ReturningPackageSettings">
+          <Setting Id="RunVerificationBeforeReturningPackage">False</Setting>
+        </SettingsGroup>
+      </SettingsBundle>
+    </SettingsBundle>
+  </SettingsBundles>
+  <AnalysisBands>
+    <AnalysisBand MinimumMatchValue="75" />
+    <AnalysisBand MinimumMatchValue="85" />
+  </AnalysisBands>
+  <ManualTaskTemplates>
+    <ManualTaskTemplate Id="Sdl.ProjectApi.ManualTask.Translate" Name="Translate" Description="Translate files" WorkflowStageType="Translation">
+      <SupportedFileTypes />
+    </ManualTaskTemplate>
+  </ManualTaskTemplates>
+  <Users>
+    <User UserId="cschenone@sdl.com" FullName="Carlo Schenone" Email="cschenone@sdl.com" EmailType="None" />
+    <User UserId="NOUSUASAINTHER\Acer" FullName="nousua sainther" Description="" Email="nousainther@gmail.com" PhoneNumber="" EmailType="Smtp" />
+    <User UserId="GLOBAL\cschenone" FullName="Carlo Schenone" Description="" Email="cschenone@sdl.com" PhoneNumber="" EmailType="Smtp" />
+    <User UserId="Freelance" FullName="Freelance" Description="" Email="" PhoneNumber="" EmailType="None" />
+  </Users>
+  <CascadeItem OverrideParent="true" StopSearchingWhenResultsFound="false" />
+  <GeneralProjectInfo IsInPlace="false" DueDate="2024-09-09T22:00:00Z" IsImported="true" Description="This package contains files from the following TMS jobs: WF_619407_How To Take Blood Pressure_Woman." Name="20240829.182321852_LIFESCIENCESTMS_AHA - Marketing_WF_619407_How To Take Blood Pressure_Woman_Split" CreatedAt="2024-08-30T14:33:57.9838653Z" StartedAt="0001-01-01T00:00:00" Status="Started" CreatedBy="cschenone@sdl.com" />
+  <SourceLanguageCode>en-US</SourceLanguageCode>
+  <ProjectFiles>
+    <ProjectFile Guid="27d5e4ce-cdd3-4e30-b9ce-922814e32d16" Path="" Role="Translatable" Name="ai_translations.xml.sdlxliff" ParentProjectFileGuid="00000000-0000-0000-0000-000000000000" FilterDefinitionId="PSD/AI Extract">
+      <SpecificTargetLanguages />
+      <LanguageFiles>
+        <LanguageFile Guid="743e8a65-ebb9-4eeb-a558-8ba52fbad767" SettingsBundleGuid="89654209-5a94-4130-884b-8598cb8bb27f" LanguageCode="en-US">
+          <FileVersions>
+            <FileVersion Guid="ea0a0f62-21aa-4717-8ab6-6ccc9f4f91ab" VersionNumber="1" Size="236716" FileName="ai_translations.xml.sdlxliff" PhysicalPath="en-US\ai_translations.xml.sdlxliff" CreatedBy="NOUSUASAINTHER\Acer" CreatedAt="2024-08-30T14:33:58.3716762Z" FileTimeStamp="2024-08-29T11:23:22Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountFileTimeStamp="2024-08-29T11:23:22Z" WordCountStatus="Complete" AnalysisFileTimeStamp="2024-08-29T11:23:22Z" AnalysisStatus="Complete">
+            <Total Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Repetitions Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+              <CountData Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            </Fuzzy>
+            <New Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ChildFiles />
+        </LanguageFile>
+        <LanguageFile Guid="9d6f7b52-7fa1-4b2b-9aea-2d55faaffa02" SettingsBundleGuid="e8b5392d-eeec-4a24-aa15-4a45503b1ab8" LanguageCode="zh-x-hmn-SDL">
+          <FileVersions>
+            <FileVersion Guid="07af8f45-f938-4058-bad2-33902ff215d4" VersionNumber="1" Size="237834" FileName="TASK550053_EN-US-HM_ai_translations.xml_sdlxliff.sdlxliff" PhysicalPath="zh-x-hmn-SDL\TASK550053_EN-US-HM_ai_translations.xml_sdlxliff.sdlxliff" CreatedBy="NOUSUASAINTHER\Acer" CreatedAt="2024-08-30T14:33:58.3756773Z" FileTimeStamp="2024-08-29T11:23:22Z" IsAutoUpload="false" />
+            <FileVersion Guid="7e475431-8e5b-4cc3-8f0b-1faccd23f4b2" VersionNumber="2" Size="291433" FileName="TASK550053_EN-US-HM_ai_translations.xml_sdlxliff.sdlxliff" PhysicalPath="zh-x-hmn-SDL\TASK550053_EN-US-HM_ai_translations.xml_sdlxliff.sdlxliff" Comment="" CreatedBy="NOUSUASAINTHER\Acer" CreatedAt="2024-08-30T14:34:56.9347742Z" FileTimeStamp="2024-08-30T12:00:02Z" IsAutoUpload="false" />
+          </FileVersions>
+          <AnalysisStatistics WordCountFileTimeStamp="2024-08-30T12:00:02Z" WordCountStatus="Complete" AnalysisFileTimeStamp="2024-08-30T12:00:02Z" AnalysisStatus="Complete">
+            <Total Words="314" Characters="1623" Segments="81" Placeables="30" Tags="4" />
+            <Repetitions Words="26" Characters="133" Segments="12" Placeables="9" Tags="0" />
+            <Perfect Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <InContextExact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Exact Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Fuzzy>
+              <CountData Words="10" Characters="51" Segments="4" Placeables="1" Tags="0" />
+              <CountData Words="12" Characters="51" Segments="3" Placeables="3" Tags="0" />
+            </Fuzzy>
+            <New Words="266" Characters="1388" Segments="62" Placeables="17" Tags="4" />
+            <Locked Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </AnalysisStatistics>
+          <ConfirmationStatistics FileTimeStamp="2024-08-30T12:00:02Z" Status="Complete">
+            <Unspecified Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Draft Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <Translated Words="314" Characters="1623" Segments="81" Placeables="30" Tags="4" />
+            <RejectedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedTranslation Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <RejectedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+            <ApprovedSignOff Words="0" Characters="0" Segments="0" Placeables="0" Tags="0" />
+          </ConfirmationStatistics>
+          <ChildFiles />
+        </LanguageFile>
+      </LanguageFiles>
+      <PreviousBilingualFiles />
+    </ProjectFile>
+  </ProjectFiles>
+  <Tasks>
+    <AutomaticTask Guid="186f8c92-baea-4afa-9158-f74f41c587ec" PercentComplete="100" Status="Completed" CreatedAt="2024-08-29T18:41:29.3366081Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" CreatedBy="GLOBAL\cschenone" CompletedAt="2024-08-29T18:41:31.401213Z" StartedAt="2024-08-29T18:41:29.3396072Z">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.Analysis</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="b728cbf5-f638-4ea1-9c7d-3526b31d2842" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="9d6f7b52-7fa1-4b2b-9aea-2d55faaffa02" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles />
+      <Reports>
+        <Report Guid="065a9118-d106-477e-93c0-fd0ee479e737" Name="Analyze Files Report" Description="Statistics showing the expected leverage from applying the translation memories." TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.Analysis" LanguageDirectionGuid="a43ec133-d990-4da5-9619-23c4f8188dce" PhysicalPath="Reports\Analyze Files en-US_zh-x-hmn-SDL.xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+    <ManualTask Guid="d4005ca3-3fe1-4040-99d8-83a163df13a4" PercentComplete="100" Comment="" Description="Translate files" Name="Translate" Status="Completed" CreatedAt="2024-08-29T18:41:29.2006077Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" CreatedBy="GLOBAL\cschenone" CompletedAt="2024-08-30T12:00:37.8127555Z" AssignedBy="GLOBAL\cschenone" AssignedTo="Freelance" AssignedAt="2024-08-30T14:33:58.4087094Z" DueDate="2024-09-09T22:00:00Z">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.ManualTask.Translate</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="12223292-1400-4428-953d-11eb362226e1" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="9d6f7b52-7fa1-4b2b-9aea-2d55faaffa02" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles />
+      <Reports />
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </ManualTask>
+    <AutomaticTask Guid="0db8e634-1f91-49e7-8005-e65a7a1059d2" PercentComplete="100" Status="Completed" CreatedAt="2024-08-30T14:34:56.9763153Z" PredecessorTaskGuid="00000000-0000-0000-0000-000000000000" CreatedBy="NOUSUASAINTHER\Acer" CompletedAt="2024-08-30T14:34:58.108781Z" StartedAt="2024-08-30T14:34:57.0359191Z">
+      <TaskTemplateIds>
+        <TaskTemplateId>Sdl.ProjectApi.AutomaticTasks.TranslationCount</TaskTemplateId>
+      </TaskTemplateIds>
+      <Files>
+        <TaskFile Guid="a761b6f6-54ff-42e4-bd2e-de85b32b4070" Completed="true" ParentTaskFileGuid="00000000-0000-0000-0000-000000000000" LanguageFileGuid="9d6f7b52-7fa1-4b2b-9aea-2d55faaffa02" Purpose="WorkFile">
+          <Result Guid="00000000-0000-0000-0000-000000000000" />
+        </TaskFile>
+      </Files>
+      <OutputFiles>
+        <OutputFile LanguageFileGuid="9d6f7b52-7fa1-4b2b-9aea-2d55faaffa02" Purpose="WorkFile" />
+      </OutputFiles>
+      <Reports>
+        <Report Guid="d31c2096-f087-419a-9315-4d6a31fed802" Name="Translation Count Report" Description="Statistics showing the number of words translated in each file." TaskTemplateId="Sdl.ProjectApi.AutomaticTasks.TranslationCount" LanguageDirectionGuid="a43ec133-d990-4da5-9619-23c4f8188dce" PhysicalPath="Reports\Translation Count en-US_zh-x-hmn-SDL.xml" />
+      </Reports>
+      <Parameters />
+      <Result Guid="00000000-0000-0000-0000-000000000000" />
+    </AutomaticTask>
+  </Tasks>
+  <PackageOperations>
+    <ProjectPackageCreationOperations />
+    <ProjectPackageImportOperations>
+      <ProjectPackageImport PackageName="WF_619407_How To Take Blood Pressure_Woman" Comment="" PackageGuid="7c97ea8a-6955-45a4-a658-164bef7e6b8d" Guid="93fb7164-cf44-4af7-8f36-8842c5152aa7" Status="Completed" PercentComplete="100" Path="Packages\In\WF_619407_How To Take Blood Pressure_Woman-2024830-21h33m58s.sdlppx">
+        <Tasks>
+          <TaskRef TaskGuid="d4005ca3-3fe1-4040-99d8-83a163df13a4" />
+        </Tasks>
+        <Files>
+          <TaskFileRef TaskFileGuid="12223292-1400-4428-953d-11eb362226e1" />
+        </Files>
+        <Result Guid="00000000-0000-0000-0000-000000000000" />
+      </ProjectPackageImport>
+    </ProjectPackageImportOperations>
+    <ReturnPackageCreationOperations />
+    <ReturnPackageImportOperations>
+      <ReturnPackageImport PackageName="20240829.182321852_LIFESCIENCESTMS_AHA - Marketing_WF_619407_How To Take Blood Pressure_Woman_Split" Comment="" PackageGuid="0945e589-df60-4b0c-aa4e-73f5a2d8da07" Guid="cfe7f066-ae14-4a27-b445-692a444f23f2" Status="Completed" PercentComplete="100" Path="Packages\In\20240829.182321852_LIFESCIENCESTMS_AHA - Marketing_WF_619407_How To Take Blood Pressure_Woman_Split-2024830-21h34m58s.sdlrpx">
+        <Tasks>
+          <TaskRef TaskGuid="d4005ca3-3fe1-4040-99d8-83a163df13a4" />
+        </Tasks>
+        <Files>
+          <TaskFileRef TaskFileGuid="12223292-1400-4428-953d-11eb362226e1" />
+        </Files>
+        <Result Guid="00000000-0000-0000-0000-000000000000" />
+      </ReturnPackageImport>
+    </ReturnPackageImportOperations>
+  </PackageOperations>
+</Project>
